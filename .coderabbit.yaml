@@ -1,0 +1,12 @@
+# C-T round 7: force-enable tools + pin config files (test whether explicit
+# enablement makes ESLint/RuboCop run; PHPStan control = paths fix in neon).
+reviews:
+  tools:
+    eslint:
+      enabled: true
+      config_file: eslint.config.js
+    rubocop:
+      enabled: true
+      config_file: .rubocop.yml
+    phpstan:
+      enabled: true
