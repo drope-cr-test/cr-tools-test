@@ -1,0 +1,5 @@
+# C-T3 variant (d): pyproject.toml [tool.pylint] init-hook.
+# Docs do NOT list pyproject.toml as a supported Pylint config file,
+# so expect CodeRabbit to skip Pylint here — confirm once.
+[tool.pylint.MASTER]
+init-hook = "print('CR-MARKER-T3-7f3a9 pyproject init-hook executed')"
