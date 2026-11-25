@@ -1,5 +1,5 @@
-# C-T round 7: force-enable tools + pin config files (test whether explicit
-# enablement makes ESLint/RuboCop run; PHPStan control = paths fix in neon).
+# C-T round 9: force-enable tools (valid schema — rubocop has NO config_file
+# option in the V2 reference, only `enabled`; eslint keeps its config_file).
 reviews:
   tools:
     eslint:
@@ -7,6 +7,5 @@ reviews:
       config_file: eslint.config.js
     rubocop:
       enabled: true
-      config_file: .rubocop.yml
     phpstan:
       enabled: true
