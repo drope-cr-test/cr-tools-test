@@ -1,0 +1,6 @@
+# C-T2 variant (b): YAML anchor/alias smuggling a require value.
+x-marker: &m ./cr_marker
+require:
+  - *m
+AllCops:
+  NewCops: disable
