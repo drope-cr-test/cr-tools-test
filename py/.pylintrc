@@ -1,4 +1,5 @@
-# Clean baseline .pylintrc (control).
+# C-T3 variant (a): case variant of the banned option.
 [MASTER]
 disable=all
 enable=undefined-variable
+Load-Plugins = cr_marker_plugin
