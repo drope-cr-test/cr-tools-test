@@ -1,0 +1,5 @@
+# Baseline (control) — clean config + paths so a plain root run analyzes app.php.
+parameters:
+  level: 1
+  paths:
+    - app.php
