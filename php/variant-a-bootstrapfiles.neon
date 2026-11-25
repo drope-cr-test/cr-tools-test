@@ -1,0 +1,5 @@
+# C-T5 variant (a): bootstrapFiles spelling variant.
+parameters:
+  level: 1
+  bootstrapFiles:
+    - cr_marker_bootstrap.php
