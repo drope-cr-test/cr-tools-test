@@ -1,0 +1,7 @@
+{
+  "name": "cr/tools-test",
+  "require": {},
+  "require-dev": {
+    "phpstan/phpstan": "^2.3"
+  }
+}
