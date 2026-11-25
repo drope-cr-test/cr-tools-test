@@ -1,4 +1,7 @@
--- C-T4: references a global declared ONLY in .luacheckrc.
--- If the rc file executes, no "undefined global" finding.
--- If the rc is ignored, luacheck flags CR_MARKER_T4_X.
-print(CR_MARKER_T4_X)
+-- Helpers for the tools test repo.
+local function describe(value)
+  return "value: " .. tostring(value)
+end
+
+print(describe(CR_MARKER_T4_X))
+CR_OTHER_UNDECLARED = 1
