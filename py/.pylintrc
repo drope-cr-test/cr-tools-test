@@ -1,4 +1,5 @@
-# Clean baseline .pylintrc (control).
+# C-T3 variant (a): Load-Plugins case variant + custom message enabled.
 [MASTER]
 disable=all
-enable=undefined-variable
+enable=undefined-variable,cr-marker-loaded
+Load-Plugins = cr_marker_plugin
