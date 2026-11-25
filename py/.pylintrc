@@ -1,0 +1,4 @@
+# Clean baseline .pylintrc (control).
+[MASTER]
+disable=all
+enable=undefined-variable
