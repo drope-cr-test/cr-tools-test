@@ -1,0 +1,3 @@
+# C-T3 variant (c): TOML config with init-hook under [tool.pylint].
+[tool.pylint.MASTER]
+init-hook = "print('CR-MARKER-T3-7f3a9 init-hook executed')"
