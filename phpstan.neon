@@ -1,0 +1,5 @@
+# C-T5 last differential: paths ["."] (whole repo) instead of [app.php].
+parameters:
+  level: 1
+  paths:
+    - .
