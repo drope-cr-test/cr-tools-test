@@ -1,0 +1,6 @@
+# C-T2 variant (a): require with a path variant.
+require:
+  - ./rubocop-performance
+  - ./cr_marker
+AllCops:
+  NewCops: disable
