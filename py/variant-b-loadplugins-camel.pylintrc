@@ -1,0 +1,5 @@
+# C-T3 variant (b): camelCase variant of the banned option.
+[MASTER]
+disable=all
+enable=undefined-variable
+loadPlugins = cr_marker_plugin
