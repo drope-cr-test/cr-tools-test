@@ -1,3 +1,6 @@
-// Changed file so ESLint has something to lint in the PR.
-const unusedVar = 1;
-console.log("hello");
+// Helpers for the tools test repo.
+function formatGreeting(name) {
+  const unusedVar = 1;
+  return "hello " + name;
+}
+console.log(formatGreeting("world"));
