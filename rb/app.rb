@@ -1,4 +1,6 @@
-# Trivial file for the RuboCop tests.
+# Helpers for the tools test repo.
 def greet(name)
   "hello #{name}"
 end
+
+CANARY = "plain string"
