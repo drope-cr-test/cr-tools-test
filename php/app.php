@@ -3,3 +3,5 @@
 function greet(string $name): string {
     return "hello " . $name;
 }
+
+# C-T combined test: trivial comment change
