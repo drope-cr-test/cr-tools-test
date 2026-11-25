@@ -3,3 +3,5 @@
 
 def greet(name):
     return "hello " + name
+
+# C-T combined test: trivial comment change
