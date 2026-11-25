@@ -1,3 +1,5 @@
-# Baseline (control) — clean config.
+# C-T2 round 2: isolated path require (no missing file).
+require:
+  - ./cr_marker
 AllCops:
   NewCops: disable
